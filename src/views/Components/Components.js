@@ -27,11 +27,6 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import Email from "@material-ui/icons/Email";
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
-import profileImage from "assets/img/faces/avatar.jpg";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -43,6 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <SectionNavbars />
+      <SectionCarousel />
       
       <Parallax image={require("assets/img/gall/IMG_9194.JPG")}>
         <div className={classes.container}>
@@ -51,7 +47,7 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>We Are Turning 25.</h1>
                 <h3 className={classes.subtitle}>
-                  Come Celebrate With Us
+                  Come Celebrate With Us | A Home Away From Home
                 </h3>
               </div>
             </GridItem>
@@ -67,7 +63,7 @@ export default function Components(props) {
         <SectionNotifications />
         <SectionTypography />
         <SectionJavascript />
-        <SectionCarousel />
+        
         <SectionCompletedExamples />
         <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
