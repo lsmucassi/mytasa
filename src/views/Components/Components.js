@@ -27,6 +27,11 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import Email from "@material-ui/icons/Email";
+import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
+import profileImage from "assets/img/faces/avatar.jpg";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -37,25 +42,16 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-      <Header
-        brand="Material Kit React"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="transparent"
-        changeColorOnScroll={{
-          height: 400,
-          color: "white"
-        }}
-        {...rest}
-      />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <SectionNavbars />
+      
+      <Parallax image={require("assets/img/gall/IMG_9194.JPG")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
+                <h1 className={classes.title}>We Are Turning 25.</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
+                  Come Celebrate With Us
                 </h3>
               </div>
             </GridItem>
@@ -65,7 +61,7 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
-        <SectionNavbars />
+        
         <SectionTabs />
         <SectionPills />
         <SectionNotifications />

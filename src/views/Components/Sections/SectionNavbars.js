@@ -31,58 +31,7 @@ export default function SectionNavbars() {
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
-            <div className={classes.title}>
-              <h3>Menu</h3>
-            </div>
-            <Header
-              brand="Menu"
-              color="primary"
-              leftLinks={
-                <List className={classes.list}>
-                  <ListItem className={classes.listItem}>
-                    <Button
-                      href="#pablo"
-                      className={classes.navLink}
-                      onClick={e => e.preventDefault()}
-                      color="transparent"
-                    >
-                      Link
-                    </Button>
-                  </ListItem>
-                  <ListItem className={classes.listItem}>
-                    <Button
-                      href="#pablo"
-                      className={classes.navLink}
-                      onClick={e => e.preventDefault()}
-                      color="transparent"
-                    >
-                      Link
-                    </Button>
-                  </ListItem>
-                  <ListItem className={classes.listItem}>
-                    <CustomDropdown
-                      buttonText="Dropdown"
-                      dropdownHeader="Dropdown Header"
-                      buttonProps={{
-                        className: classes.navLink,
-                        color: "transparent"
-                      }}
-                      dropdownList={[
-                        "Action",
-                        "Another action",
-                        "Something else here",
-                        { divider: true },
-                        "Separated link",
-                        { divider: true },
-                        "One more separated link"
-                      ]}
-                    />
-                  </ListItem>
-                </List>
-              }
-            />
-          </GridItem>
+          
           <GridItem xs={12} sm={12} md={6}>
             <div className={classes.title}>
               <h3>Menu with Icons</h3>
@@ -338,7 +287,7 @@ export default function SectionNavbars() {
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Discover
+                    About Us
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
@@ -348,20 +297,82 @@ export default function SectionNavbars() {
                     onClick={e => e.preventDefault()}
                     color="transparent"
                   >
-                    Wishlist
+                    Events
                   </Button>
                 </ListItem>
+                <ListItem className={classes.listItem}>
+                    <CustomDropdown
+                      buttonText="Projects"
+                      dropdownHeader="Dropdown Header"
+                      buttonProps={{
+                        className: classes.navLink,
+                        color: "transparent"
+                      }}
+                      dropdownList={[
+                        "The Educational Fund",
+                        "Another action",
+                        "Something else here",
+                        { divider: true },
+                        "Separated link",
+                        { divider: true },
+                        "One more separated link"
+                      ]}
+                    />
+                  </ListItem>
+                  
                 <ListItem className={classes.listItem}>
                   <Button
                     href="#pablo"
                     className={classes.registerNavLink}
                     onClick={e => e.preventDefault()}
                     color="rose"
+                    changeColorOnScroll={{
+                      height: 400,
+                      color: "white"
+                    }}
                     round
                   >
                     Register
                   </Button>
                 </ListItem>
+                {/* <ListItem className={classes.listItem}>
+                  <Button
+                    justIcon
+                    round
+                    href="#pablo"
+                    className={classes.notificationNavLink}
+                    onClick={e => e.preventDefault()}
+                    color="rose"
+                  >
+                    <Email className={classes.icons} />
+                  </Button>
+                </ListItem> */}
+                <ListItem className={classes.listItem}>
+                    <Button color="transparent" className={classes.navLink}>
+                      <Email className={classes.icons} />
+                    </Button>
+                  </ListItem>
+                <ListItem className={classes.listItem}>
+                    <CustomDropdown
+                      left
+                      hoverColor="info"
+                      dropdownHeader="Dropdown Header"
+                      buttonIcon="settings"
+                      buttonProps={{
+                        className: classes.navLink,
+                        color: "transparent"
+                      }}
+                      dropdownList={[
+                        "Action",
+                        "Another action",
+                        "Something else here",
+                        { divider: true },
+                        "Separated link",
+                        { divider: true },
+                        "One more separated link"
+                      ]}
+                    />
+                  </ListItem>
               </List>
             }
           />
