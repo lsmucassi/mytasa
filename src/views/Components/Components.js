@@ -48,6 +48,7 @@ export default function Components(props) {
                 <h1 className={classes.title}>We Are Turning 25.</h1>
                 <h3 className={classes.subtitle}>
                   Come Celebrate With Us | A Home Away From Home
+                  We keep winning, we keep growing, we keep moving 
                 </h3>
               </div>
             </GridItem>
