@@ -18,7 +18,7 @@ export default function SectionNavbars() {
   const classes = useStyles();
   return (
           <Header
-            brand="MY TASA"
+            brand="  TASA"
             fixed
             color="transparent"
             changeColorOnScroll={{

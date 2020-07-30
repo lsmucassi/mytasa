@@ -38,12 +38,12 @@ export default function Components(props) {
   return (
     <div>
       <SectionNavbars />
-      <SectionCarousel />
+      {/* <SectionCarousel /> */}
       
-      <Parallax image={require("assets/img/gall/IMG_9194.JPG")}>
+      <Parallax image={require("assets/img/tasa-hero.png")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem>
+            {/* <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>We Are Turning 25.</h1>
                 <h3 className={classes.subtitle}>
@@ -51,7 +51,7 @@ export default function Components(props) {
                   We keep winning, we keep growing, we keep moving 
                 </h3>
               </div>
-            </GridItem>
+            </GridItem> */}
           </GridContainer>
         </div>
       </Parallax>
