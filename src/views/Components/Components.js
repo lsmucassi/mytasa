@@ -27,6 +27,7 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionLogin from "./Sections/SectionLogin.js";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
+import JavaScrip from './JavaScript'
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -37,9 +38,9 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-      <SectionNavbars />
+      // <SectionNavbars />
       {/* <SectionCarousel /> */}
-      
+
       <Parallax image={require("assets/img/tasa-hero.png")}>
         <div className={classes.container}>
           <GridContainer>
@@ -48,7 +49,7 @@ export default function Components(props) {
                 <h1 className={classes.title}>We Are Turning 25.</h1>
                 <h3 className={classes.subtitle}>
                   Come Celebrate With Us | A Home Away From Home
-                  We keep winning, we keep growing, we keep moving 
+                  We keep winning, we keep growing, we keep moving
                 </h3>
               </div>
             </GridItem> */}
@@ -56,15 +57,17 @@ export default function Components(props) {
         </div>
       </Parallax>
 
+      <JavaScrip />
+
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
-        
+
         <SectionTabs />
         <SectionPills />
         <SectionNotifications />
         <SectionTypography />
         <SectionJavascript />
-        
+
         <SectionCompletedExamples />
         <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
