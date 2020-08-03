@@ -56,7 +56,7 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div style={{background:"#333"}} className={classNames(classes.main)}>
+      <div style={{background:"#333"}} className={classNames( classes.main)}>
       <JavaScrip />
       </div>
       <div className={classNames(classes.main, classes.mainRaised)}>

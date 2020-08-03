@@ -86,22 +86,32 @@ class JavaScript extends React.Component {
         <div className="section">
           <Container>
             <div className="title">
-              <h3>Carousel</h3>
+              <h3>About Us</h3>
             </div>
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  Bootstrap carousel
+                  We Are TASA!
                 </h1>
                 <p className="text-white mt-4">
-                  Black Design comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and youre
-                  good to go.
+                We are a faith-based student organization for all registered
+                students in institutions of higher learning. Although majority
+                of members are from the various provinces in South Africa, its
+                membership extends across the borders, including Lesotho,
+                Zimbabwe just to mention a few.<br /> <br /> The association was founded upon
+                 the ideals of Christianity, which align with those of, and the
+                 dogma and programmes of its mother body,Twelve Apostle’s Church
+                  in Christ (TACC). <br /> <br />
+                TASA is committed to the establishment of a unified, harmonized,
+                 non-discriminant and prosperous nation that shall breed an
+                 everlasting divine kingdom for human wellness through Christ.
+                 This embodies the vision of the organisation which is
+                 “Evolution through Christ
                 </p>
                 <Button
                   className="mt-4"
                   color="warning"
-                  href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/alerts"
+                  href=""
                 >
                   See all components
                 </Button>
