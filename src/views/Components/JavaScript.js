@@ -76,8 +76,8 @@ class JavaScript extends React.Component {
   render() {
     return (
       <div className="section section-javascript" id="javascriptComponents">
-        // <img alt="..." className="path" src={require("assets/img/path5.png")} />
-        // <img
+        <img alt="..." className="path" src={require("assets/img/path5.png")} />
+        <img
           alt="..."
           className="path path1"
           src={require("assets/img/path5.png")}
