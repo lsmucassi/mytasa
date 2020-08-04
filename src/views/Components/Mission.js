@@ -103,7 +103,7 @@ class Mission extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/IMG-20161120-WA0077.jpg")}
+                    src={require("assets/img/design/Capture.JPG")}
                   />
                   <Card className="card-stats bg-danger">
                     <CardBody>
