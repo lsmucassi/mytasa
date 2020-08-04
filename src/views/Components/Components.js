@@ -26,6 +26,7 @@ import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 import JavaScrip from './JavaScript'
 import Mission from './Mission'
+import WorkSection from './WorkSection'
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -36,7 +37,7 @@ export default function Components(props) {
   const { ...rest } = props;
   return (
     <div>
-      <SectionNavbars />
+      <SectionNavbars id="home" />
 
       {/* <SectionCarousel /> */}
 
@@ -80,7 +81,7 @@ export default function Components(props) {
           </Link>
         </GridItem>
         <SectionExamples />
-        <SectionDownload />
+        <WorkSection />
       </div>
       <Footer />
     </div>
