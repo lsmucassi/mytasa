@@ -22,7 +22,7 @@ const carouselItems = [
     altText: "Slide 1",
   },
   {
-    src: require("assets/img/gall/tasaprovconf.jpg"),
+    src: require("assets/img/tasagpconf.jpg"),
     altText: "Slide 2",
   },
   {

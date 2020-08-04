@@ -21,7 +21,7 @@ import {
 // import Footer from "components/Footer/Footer.js";
 
 
-class LandingPage extends React.Component {
+class Mission extends React.Component {
   componentDidMount() {
     document.body.classList.toggle("landing-page");
   }
@@ -103,7 +103,7 @@ class LandingPage extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/chester-wade.jpg")}
+                    src={require("assets/img/IMG-20161120-WA0077.jpg")}
                   />
                   <Card className="card-stats bg-danger">
                     <CardBody>
@@ -204,4 +204,4 @@ class LandingPage extends React.Component {
   }
 }
 
-export default LandingPage;
+export default Mission;
