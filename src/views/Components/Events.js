@@ -77,30 +77,21 @@ class ProfilePage extends React.Component {
         <div className="section">
           <div className="title">
             <h1>Events</h1>
-            <h3>We Are Virtual, catch us live</h3>
+            <h4>We Are Virtual, catch us live on zoom, facebook, instagram & youtube</h4>
           </div>
           <Container>
             <Row className="justify-content-between">
 
               <Col md="5">
-                <h1 className="profile-title text-left">Projects</h1>
-                <h5 className="text-on-back">01</h5>
+                <h1 className="profile-title text-left">THE BEGINNING</h1>
+                <h5 className="text-on-back">03AUG</h5>
                 <p className="profile-description text-left">
-                  An artist of considerable range, Ryan — the name taken by
-                  Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure. An artist of
-                  considerable range.
+                  <h3>03 August 2020</h3>
+                  In this episode we talk about the estabishment and the
+                  purpose of TASA with the Chief Apostle of TACC CA Prof C. Nongqumga
                 </p>
                 <div className="btn-wrapper pt-3">
-                  <Button
-                    className="btn-simple"
-                    color="primary"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="tim-icons icon-book-bookmark" /> Bookmark
-                  </Button>
+
                   <Button
                     className="btn-simple"
                     color="info"
@@ -129,14 +120,14 @@ class ProfilePage extends React.Component {
                   </Row>
                 </Col>
                 <Col md="5">
-                  <h1 className="profile-title text-left">Projects</h1>
-                  <h5 className="text-on-back">02</h5>
+                  <h1 className="profile-title text-left">THE CARRIERS OF TASA</h1>
+                  <h5 className="text-on-back">10AUG</h5>
                   <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
+                    <h3>10 August 2020</h3>
+                    You probably wonder who was in the forfront of TASA in the
+                    foundation stages, in this episode we have the founders of
+                    TASA as guests to share how it was like being there in the
+                    beginning.
                   </p>
                   <div className="btn-wrapper pt-3">
                     <Button
@@ -145,16 +136,9 @@ class ProfilePage extends React.Component {
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
                       <i className="tim-icons icon-bulb-63" /> Check it!
                     </Button>
+
                   </div>
                 </Col>
               </Row>
@@ -166,14 +150,14 @@ class ProfilePage extends React.Component {
               <Row className="justify-content-between">
 
                 <Col md="5">
-                  <h1 className="profile-title text-left">Projects</h1>
-                  <h5 className="text-on-back">03</h5>
+                  <h1 className="profile-title text-left">THE FIRST NEC</h1>
+                  <h5 className="text-on-back">17AUG</h5>
                   <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
+                  <h3>17 August 2020</h3>
+                    Today a national conference is one of the events we as TASA
+                    pride ourselves of, in this episode we look back to the first
+                    NEC and national conference, how it came to be and the up &
+                    downs.
                   </p>
                   <div className="btn-wrapper pt-3">
                     <Button
@@ -212,14 +196,13 @@ class ProfilePage extends React.Component {
                   </Row>
                 </Col>
                 <Col md="5">
-                  <h1 className="profile-title text-left">Projects</h1>
-                  <h5 className="text-on-back">04</h5>
+                  <h1 className="profile-title text-left">THE NEW AGE NEC</h1>
+                  <h5 className="text-on-back">24AUG</h5>
                   <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
+                  <h3>24 August 2020 </h3>
+                    In this episode we look into the modern days, what is TASA
+                    today, what have we accomplished and all the projects TASA
+                    is running 
                   </p>
                   <div className="btn-wrapper pt-3">
                     <Button

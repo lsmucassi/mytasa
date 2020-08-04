@@ -62,6 +62,7 @@ export default function SectionNavbars() {
                         "The Educational Fund",
                         "The Constitution",
                         "Code Of Conduct",
+                        "TASA Magazine",
                         { divider: true },
                         "Mentoring Project",
                         { divider: true },
