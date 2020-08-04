@@ -18,7 +18,7 @@ import {
 
 const carouselItems = [
   {
-    src: require("assets/img/denys.jpg"),
+    src: require("assets/img/"),
     altText: "Slide 1",
     caption: "Big City Life, United States"
   },
@@ -160,14 +160,7 @@ class ProfilePage extends React.Component {
                     downs.
                   </p>
                   <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
+
                     <Button
                       className="btn-simple"
                       color="info"
@@ -202,25 +195,17 @@ class ProfilePage extends React.Component {
                   <h3>24 August 2020 </h3>
                     In this episode we look into the modern days, what is TASA
                     today, what have we accomplished and all the projects TASA
-                    is running 
+                    is running &amp out footprint internationally.
                   </p>
                   <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Check it!
-                    </Button>
+                  <Button
+                    className="btn-simple"
+                    color="primary"
+                    href="#pablo"
+                    onClick={e => e.preventDefault()}
+                  >
+                    <i className="tim-icons icon-bulb-63" /> Check it!
+                  </Button>
                   </div>
                 </Col>
               </Row>
@@ -232,24 +217,16 @@ class ProfilePage extends React.Component {
               <Row className="justify-content-between">
 
                 <Col md="5">
-                  <h1 className="profile-title text-left">Projects</h1>
-                  <h5 className="text-on-back">05</h5>
+                  <h1 className="profile-title text-left">THE FUTURE:</h1>
+                  <h5 className="text-on-back">31AUG</h5>
                   <p className="profile-description text-left">
-                    An artist of considerable range, Ryan — the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
+                    <h3>31 August 2020</h3>
+                    Is it bright? In this episode we look at the vision f TASA
+                    and how we can further grow and fullfill it, explore Value
+                     adding projects and activities.
                   </p>
                   <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
+
                     <Button
                       className="btn-simple"
                       color="info"
