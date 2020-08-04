@@ -18,19 +18,16 @@ import {
 
 const carouselItems = [
   {
-    src: require("assets/img/"),
+    src: require("assets/img/25.png"),
     altText: "Slide 1",
-    caption: "Big City Life, United States"
   },
   {
-    src: require("assets/img/fabien-bazanegue.jpg"),
+    src: require("assets/img/gall/tasaprovconf.jpg"),
     altText: "Slide 2",
-    caption: "Somewhere Beyond, United States"
   },
   {
-    src: require("assets/img/mark-finn.jpg"),
+    src: require("assets/img/gall/conffour.jpg"),
     altText: "Slide 3",
-    caption: "Stocks, United States"
   }
 ];
 

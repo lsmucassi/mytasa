@@ -16,16 +16,16 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import studio1 from "assets/img/gall/IMG_9194.JPG";
+import studio2 from "assets/img/design/Capture.JPG";
+import studio3 from "assets/img/25-2.jpeg";
+import studio4 from "assets/img/homeaway.jpg";
+import studio5 from "assets/img/IMG_9194.JPG";
+import work1 from "assets/img/tasaconfthatthing.jpg";
+import work2 from "assets/img/wearetasa.jpg";
+import work3 from "assets/img/tasagpconf.jpg";
+import work4 from "assets/img/IMG-20161120-WA0080.jpg";
+import work5 from "assets/img/IMG-20161120-WA0077.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
