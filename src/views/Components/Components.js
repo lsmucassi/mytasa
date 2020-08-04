@@ -11,7 +11,7 @@ import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import SectionNavbars from "./Sections/SectionNavbars.js";
 import SectionTabs from "./Sections/SectionTabs.js";
-import JavaScrip from './JavaScript'
+import About from './About'
 import Mission from './Mission'
 import Contact from './Contact'
 import Gallery from './Gallery'
@@ -46,7 +46,7 @@ export default function Components(props) {
       </Parallax>
 
       <div style={{background:"#333"}} className={classNames(classes.main)}>
-        <JavaScrip />
+        <About />
       </div>
 
       <div className={classNames(classes.main, classes.mainRaised)}>

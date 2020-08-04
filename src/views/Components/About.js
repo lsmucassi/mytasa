@@ -71,8 +71,8 @@ class JavaScript extends React.Component {
 
         <div className="section">
           <Container>
-            <div className="title">
-              <h3>About Us</h3>
+            <div >
+              <h2>About Us</h2>
             </div>
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">

@@ -102,6 +102,10 @@ class ProfilePage extends React.Component {
         <div className="wrapper">
 
         <div className="section">
+          <div className="title">
+            <h1>Events</h1>
+            <h3>We Are Virtual, catch us live</h3>
+          </div>
           <Container>
             <Row className="justify-content-between">
 
