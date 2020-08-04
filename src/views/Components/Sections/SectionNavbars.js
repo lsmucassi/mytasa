@@ -68,8 +68,17 @@ export default function SectionNavbars() {
                         "One more separated link"
                       ]}
                     />
-                  </ListItem>
-                  
+                </ListItem>
+                <ListItem className={classes.listItem}>
+                  <Button
+                    href="#pablo"
+                    className={classes.navLink}
+                    onClick={e => e.preventDefault()}
+                    color="transparent"
+                  >
+                    Contact Us
+                  </Button>
+                </ListItem>
                 <ListItem className={classes.listItem}>
                   <Button
                     href="#pablo"
