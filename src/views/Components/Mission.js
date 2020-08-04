@@ -16,18 +16,12 @@
 
 */
 import React from "react";
-// react plugin used to create charts
-import { Line } from "react-chartjs-2";
+
 // reactstrap components
 import {
-  Button,
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
   CardTitle,
-  ListGroupItem,
-  ListGroup,
   Container,
   Row,
   Col
@@ -37,7 +31,6 @@ import {
 // import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 // import Footer from "components/Footer/Footer.js";
 
-import bigChartData from "variables/charts.js";
 
 class LandingPage extends React.Component {
   componentDidMount() {
@@ -197,7 +190,7 @@ class LandingPage extends React.Component {
               </Row>
             </Container>
           </section>
-    
+
 
       </>
     );
