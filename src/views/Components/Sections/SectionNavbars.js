@@ -63,9 +63,9 @@ export default function SectionNavbars() {
                         "The Constitution",
                         "Code Of Conduct",
                         { divider: true },
-                        "Separated link",
+                        "Mentoring Project",
                         { divider: true },
-                        "One more separated link"
+                        "Women's Club"
                       ]}
                     />
                 </ListItem>

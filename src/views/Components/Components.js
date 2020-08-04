@@ -54,7 +54,9 @@ export default function Components(props) {
           <Mission />
         </div>
         <Gallery />
-        <Events />
+        <div style={{background:"#333"}} className={classNames(classes.main)}>
+          <Events />
+        </div>
         <Contact />
       </div>
       <Footer />
