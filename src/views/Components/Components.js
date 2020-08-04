@@ -26,7 +26,7 @@ import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
 import JavaScrip from './JavaScript'
 import Mission from './Mission'
-import WorkSection from './WorkSection'
+import Contact from './Contact'
 import Gallery from './Gallery'
 
 import styles from "assets/jss/material-kit-react/views/components.js";
@@ -64,15 +64,11 @@ export default function Components(props) {
         <div style={{background:"#3498DB"}} className={classNames(classes.main)}>
           <Mission />
         </div>
-        <SectionBasics />
-
+        
         <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
+
         <Gallery />
-        <WorkSection />
+        <Contact />
       </div>
       <Footer />
     </div>

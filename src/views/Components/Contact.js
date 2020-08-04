@@ -1,8 +1,8 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import profile from "assets/img/faces/christian.jpg";
 
-// @material-ui/icons
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -14,13 +14,13 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/work
 
 const useStyles = makeStyles(styles);
 
-export default function WorkSection() {
+export default function Contact() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Work with us</h2>
+        <h2 className={classes.title}>Get In Touch</h2>
           <h4 className={classes.description}>
             Divide details about your product or agency work into parts. Write a
             few lines about each one and contact us about any further
@@ -64,6 +64,9 @@ export default function WorkSection() {
               </GridItem>
             </GridContainer>
           </form>
+
+
+
         </GridItem>
       </GridContainer>
     </div>
