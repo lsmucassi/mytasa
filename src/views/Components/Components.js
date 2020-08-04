@@ -10,7 +10,6 @@ import GridContainer from "components/Grid/GridContainer.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
 import SectionNavbars from "./Sections/SectionNavbars.js";
-import SectionTabs from "./Sections/SectionTabs.js";
 import About from './About'
 import Mission from './Mission'
 import Contact from './Contact'
