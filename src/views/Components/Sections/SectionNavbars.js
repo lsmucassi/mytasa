@@ -30,9 +30,9 @@ export default function SectionNavbars() {
               // About Us
               <List className={classes.list}>
                 <ListItem className={classes.listItem} >
-                  <Link  to={"/login-page"} className={classes.link}>
+                  <Link  to={"/About"} className={classes.link}>
                     <Button
-                      href="#pablo"
+                      href="/About"
                       className={classes.navLink}
                       onClick={e => e.preventDefault()}
                       color="transparent"

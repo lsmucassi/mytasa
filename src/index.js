@@ -10,6 +10,7 @@ import "assets/demo/demo.css";
 
 // pages for this product
 import Components from "views/Components/Components.js";
+import AboutMore from "views/Components/AboutMore.js"
 // import LandingPage from "views/LandingPage/LandingPage.js";
 // import ProfilePage from "views/ProfilePage/ProfilePage.js";
 // import LoginPage from "views/LoginPage/LoginPage.js";
@@ -22,6 +23,7 @@ ReactDOM.render(
       {/* <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} /> */}
+      <Route path="/About" component={AboutMore} />
       <Route path="/" component={Components} />
     </Switch>
   </Router>,
