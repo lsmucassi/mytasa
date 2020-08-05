@@ -23,7 +23,7 @@ const carouselItems = [
     caption: ""
   },
   {
-    src: require("assets/img/25-2.jpeg"),
+    src: require("assets/img/tasa-hero-web.png"),
     altText: "Slide 2",
     caption: ""
   },

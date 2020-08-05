@@ -16,19 +16,55 @@ import {
   UncontrolledCarousel
 } from "reactstrap";
 
-const carouselItems = [
+const carouselItems1 = [
   {
-    src: require("assets/img/25.png"),
+    src: require("assets/img/EP-ONE/1.png"),
     altText: "Slide 1",
   },
   {
-    src: require("assets/img/tasagpconf.jpg"),
+    src: require("assets/img/EP-ONE/2.png"),
     altText: "Slide 2",
   },
+];
+const carouselItems2 = [
   {
-    src: require("assets/img/gall/conffour.jpg"),
-    altText: "Slide 3",
-  }
+    src: require("assets/img/EP-TWO/1.png"),
+    altText: "Slide 1",
+  },
+  {
+    src: require("assets/img/EP-TWO/2.png"),
+    altText: "Slide 2",
+  },
+];
+const carouselItems3 = [
+  {
+    src: require("assets/img/EP-THREE/1.png"),
+    altText: "Slide 1",
+  },
+  {
+    src: require("assets/img/EP-THREE/2.png"),
+    altText: "Slide 2",
+  },
+];
+const carouselItems4 = [
+  {
+    src: require("assets/img/EP-FOUR/1.png"),
+    altText: "Slide 1",
+  },
+  {
+    src: require("assets/img/EP-FOUR/2.png"),
+    altText: "Slide 2",
+  },
+];
+const carouselItems5 = [
+  {
+    src: require("assets/img/EP-FIVE/1.png"),
+    altText: "Slide 1",
+  },
+  {
+    src: require("assets/img/EP-FIVE/2.png"),
+    altText: "Slide 2",
+  },
 ];
 
 let ps = null;
@@ -101,7 +137,7 @@ class ProfilePage extends React.Component {
               </Col>
               <Col md="6">
                 <Row className="justify-content-between align-items-center">
-                  <UncontrolledCarousel items={carouselItems} />
+                  <UncontrolledCarousel items={carouselItems1} />
                 </Row>
               </Col>
             </Row>
@@ -113,7 +149,7 @@ class ProfilePage extends React.Component {
               <Row className="justify-content-between">
                 <Col md="6">
                   <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
+                    <UncontrolledCarousel items={carouselItems2} />
                   </Row>
                 </Col>
                 <Col md="5">
@@ -170,7 +206,7 @@ class ProfilePage extends React.Component {
                 </Col>
                 <Col md="6">
                   <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
+                    <UncontrolledCarousel items={carouselItems3} />
                   </Row>
                 </Col>
               </Row>
@@ -182,7 +218,7 @@ class ProfilePage extends React.Component {
               <Row className="justify-content-between">
                 <Col md="6">
                   <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
+                    <UncontrolledCarousel items={carouselItems4} />
                   </Row>
                 </Col>
                 <Col md="5">
@@ -236,7 +272,7 @@ class ProfilePage extends React.Component {
                 </Col>
                 <Col md="6">
                   <Row className="justify-content-between align-items-center">
-                    <UncontrolledCarousel items={carouselItems} />
+                    <UncontrolledCarousel items={carouselItems5} />
                   </Row>
                 </Col>
               </Row>
