@@ -145,49 +145,49 @@ class Mission extends React.Component {
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-
                           <div className="ml-3">
-                            <h3>C - Christian Enlightment & Spiritual Transformation</h3>
+                            <hr className="line-success" />
+                            <h4>C - Christian Enlightment & Spiritual Transformation</h4>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-
                           <div className="ml-3">
-                            <h3>H - Human Wellness & Morality</h3>
+                            <hr className="line-success" />
+                            <h4>H - Human Wellness & Morality</h4>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-
                           <div className="ml-3">
-                            <h3>R - Restoration Of Peace &amp; Unity</h3>
+                            <hr className="line-success" />
+                            <h4>R - Restoration Of Peace &amp; Unity</h4>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-
                           <div className="ml-3">
-                            <h3>I - Intensive Promotion Of Education</h3>
+                            <hr className="line-success" />
+                            <h4>I - Intensive Promotion Of Education</h4>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-
                           <div className="ml-3">
-                            <h3>S - Sustainable Spiritual Development</h3>
+                            <hr className="line-success" />
+                            <h4>S - Sustainable Spiritual Development</h4>
                           </div>
                         </div>
                       </li>
                       <li className="py-2">
                         <div className="d-flex align-items-center">
-
                           <div className="ml-3">
-                            <h3>T - Thriving In God's Love & Fellowship</h3>
+                            <hr className="line-success" />
+                            <h4>T - Thriving In God's Love & Fellowship</h4>
                           </div>
                         </div>
                       </li>

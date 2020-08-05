@@ -3,6 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import { Link } from "react-router-dom";
 // @material-ui/icons
 // core components
 import Header from "components/Header/Header.js";
@@ -29,14 +30,16 @@ export default function SectionNavbars() {
               // About Us
               <List className={classes.list}>
                 <ListItem className={classes.listItem} >
-                  <Button
-                    href="#pablo"
-                    className={classes.navLink}
-                    onClick={e => e.preventDefault()}
-                    color="transparent"
-                  >
-                    About Us
-                  </Button>
+                  <Link  to={"/login-page"} className={classes.link}>
+                    <Button
+                      href="#pablo"
+                      className={classes.navLink}
+                      onClick={e => e.preventDefault()}
+                      color="transparent"
+                    >
+                      About Us
+                    </Button>
+                  </Link>
                 </ListItem>
                 {/* Events */}
                 <ListItem className={classes.listItem}>

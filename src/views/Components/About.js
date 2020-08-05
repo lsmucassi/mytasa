@@ -85,10 +85,10 @@ class JavaScript extends React.Component {
                 </p>
                 <Button
                   className="mt-4"
-                  color="warning"
+                  color="success"
                   href=""
                 >
-                  See all components
+                  Join TASA
                 </Button>
               </Col>
               <Col lg="6">

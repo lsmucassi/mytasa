@@ -55,7 +55,7 @@ export default function Components(props) {
       </div>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <div style={{background:"#3498DB"}} className={classNames(classes.main)}>
+        <div style={{background:"#3498DB"}} >
           <Mission />
         </div>
         <Gallery />
