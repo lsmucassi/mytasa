@@ -37,7 +37,7 @@ const carouselItems = [
   }
 ];
 
-class JavaScript extends React.Component {
+class AboutMore extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -62,4 +62,4 @@ class JavaScript extends React.Component {
   }
 }
 
-export default JavaScript;
+export default AboutMore;
