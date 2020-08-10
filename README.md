@@ -15,7 +15,7 @@ npm start
 ```
 sudo npm start
 ```
-## Overview Project Structure
+### Overview Project Structure
 ```
 .
 │   bower.json
@@ -71,3 +71,15 @@ sudo npm start
 |   │       └─── Landing
 |   │       |       └─── Sections
 ```
+### TODO:
+
+- [x] Create A Landing page
+- [ ] Change 'Register to Login'
+- [ ] Add Navbar link routing
+- [ ] Create A full About
+- [ ] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
