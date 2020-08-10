@@ -74,12 +74,23 @@ sudo npm start
 ### TODO:
 
 - [x] Create A Landing page
-- [ ] Change 'Register to Login'
 - [ ] Add Navbar link routing
-- [ ] Create A full About
-- [ ] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [ ] Create A full 'About Page' ==> allows routing
+- [ ] Create A full 'Events Page' ==> allows routing
+- [ ] Create A full 'Projects Page' ==> allows routing
+- [ ] Create A full 'Projects ->  Educational Page' ==> allows routing
+- [ ] Create A full 'Projects ->  The Constitutio + Code Of Conduct + TASA Docs Page' ==> allows routing
+- [ ] Create A full 'Projects ->  Magazine Page' ==> allows routing
+- [ ] Create A full 'Projects ->  Other Projects Page' ==> allows routing
+- [ ] Create Contact List for Branch, Provincial and National Execs
+- [ ] Contact Us route to all branch, Provincial and National Execs contact information Page
+- [ ] Change 'Register to Login'
+- [ ] Login routes to 'Login Page + Register Page'
+- [ ] Groups Page( For logged in users to converse and share)
+- [ ] Join TASA button routes to Cantact information + allows email sending for inquery
+- [ ] Fix vision + Mission Padding
+- [ ] Fix Gallery Images
+- [ ] Events routes to 'More info for the event' + 'Youtube" + 'Social Media' (Event live streaming)
+- [ ] Video Streaming
+- [ ] Virtual Meeting Rooms
+- [ ] Gallery Blog => allows commenting + posting + sharing + liking + streaming
