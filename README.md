@@ -17,8 +17,9 @@ sudo npm start
 ```
 ## Project Structure
 ```
-project
-│   README.md
+.
+│   bower.json
+|   README.md
 │   file001.txt    
 │
 └───folder1
