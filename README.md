@@ -25,10 +25,23 @@ sudo npm start
 |   LICENSE.md
 |   package.json
 |   package-lock.json
+|
 └───public
+│   │   favicon.ico
+│   │   index.html
+|
 |   README.md
+|
 └───src
-│   │   file011.txt
+│   └─── assets
+|   │       └─── css
+|   │       └─── demo
+|   │       └─── fonts
+|   │       └─── img
+|   │       └─── fonts
+│   │
+│   └───subfolder1
+
 │   │   file012.txt
 │   │
 │   └───subfolder1
@@ -39,4 +52,5 @@ sudo npm start
 └───folder2
     │   file021.txt
     │   file022.txt
+    
 ```
