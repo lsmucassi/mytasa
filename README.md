@@ -19,10 +19,15 @@ sudo npm start
 ```
 .
 │   bower.json
+|   CHANGELOG.md
+|   gulpfile.js
+|   jsconfig.json
+|   LICENSE.md
+|   package.json
+|   package-lock.json
+└───public
 |   README.md
-│   file001.txt    
-│
-└───folder1
+└───src
 │   │   file011.txt
 │   │   file012.txt
 │   │
