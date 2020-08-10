@@ -15,7 +15,7 @@ npm start
 ```
 sudo npm start
 ```
-## Project Structure
+## Overview Project Structure
 ```
 .
 │   bower.json
@@ -39,18 +39,35 @@ sudo npm start
 |   │       └─── fonts
 |   │       └─── img
 |   │       └─── fonts
+|   │       └─── jss
+|   │       └─── scss
 │   │
-│   └───subfolder1
-
-│   │   file012.txt
+│   └─── components
+|   │       └─── Badge
+|   │       └─── Card
+|   │       └─── Clearfix
+|   │       └─── CustomButtons
+|   │       └─── CustomDropdown
+|   │       └─── CustomInput
+|   │       └─── CustomLinearProgress
+|   │       └─── Customtabs
+|   │       └─── Footer
+|   │       └─── Grid
+|   │       └─── Header
+|   │       └─── InfoArea
+|   │       └─── NavPills
+|   │       └─── Pagination
+|   │       └─── Parallax
+|   │       └─── Snackbar
+|   │       └─── Typography
+│   │       
+│   │    index.js
+│   │       
+│   └─── variables
 │   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
-    
+│   └─── views
+|   │       └─── Components
+|   │       |       └─── Sections
+|   │       └─── Landing
+|   │       |       └─── Sections
 ```
